@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 800" width="1422" height="800"><defs><pattern id="mmmotif-pattern" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="translate(-5 0) scale(1) rotate(39) skewX(0) skewY(-2)">
+    <path d="M7.92969 27.4865L7.92986 16.4866L16.7597 21.5865V32.5865L7.92969 27.4865Z" fill="#c1e9ad"></path>
+    <path d="M16.76 32.5865L16.7598 21.5865L28.84 19.7278L28.8435 30.7265L16.76 32.5865Z" fill="#618750"></path>
+    <path d="M32.07 23.7465V12.7466L28.8398 19.7266L28.84 30.7266L32.07 23.7465Z" fill="#c1e9ad"></path>
+    <path d="M11.1611 9.51624L23.2352 7.64853L32.074 12.7512L28.8388 19.7216L16.7647 21.5893L7.92586 16.4866L11.1611 9.51624Z" fill="rgb(144, 183, 125)"></path>
+</pattern></defs><rect width="1422" height="800" fill="url(#mmmotif-pattern)"></rect></svg>
