@@ -1,0 +1,177 @@
+.header {
+  position: fixed;
+  background-color: rgb(144, 183, 125);
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  z-index: 100;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.left-section {
+  background-color: rgb(144, 183, 125);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -12px;
+  height: 50px;
+  margin-left: -10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.middle-section {
+  background-color: rgb(144, 183, 125);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -12px;
+  height: 50px;
+  width: 500px;
+  position: relative;
+}
+
+.right-section {
+  display: flex;
+  background-color: rgb(144, 183, 125);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -15px;
+  margin-right: -10px;
+  height: 50px;
+  align-items: center;
+  overflow: visible;
+  position: relative;
+}
+
+.twit-div {
+  background-color: rgb(144, 183, 125);
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.git-div {
+  background-color: rgb(144, 183, 125);
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgb(219, 216, 216);
+  color: rgb(44, 44, 44);
+  width: auto;
+  border-radius: 4px;
+  opacity: 0;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  white-space: nowrap;
+  pointer-events: none;
+  align-items: center;
+  justify-content: center;
+  top: 45px;
+}
+
+.twit-div:hover .tooltip,
+.git-div:hover .tooltip {
+  opacity: 0.8;
+}
+.peace {
+  max-width: 75%;
+  max-height: 75%;
+  margin-left: 10px;
+}
+.twit-logo,
+.git-logo {
+  max-width: 50%;
+  max-height: 50%;
+  opacity: 0.9;
+  align-items: center;
+}
+
+.home,
+.about-me,
+.contact {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  position: relative;
+  height: 23px;
+}
+
+/* .home:hover,
+.about-me:hover,
+.contact:hover{
+    text-decoration: underline;
+    color: black;
+} */
+
+.home::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-me::after {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 2px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  width: 51px;
+  height: 2px;
+  background-color: #18272f;
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.home:hover::after,
+.about-me:hover::after,
+.contact:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  cursor: pointer;
+}
